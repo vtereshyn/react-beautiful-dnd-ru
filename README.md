@@ -12,7 +12,7 @@
 
 ![quote application example](https://user-images.githubusercontent.com/2182637/53614150-efbed780-3c2c-11e9-9204-a5d2e746faca.gif)
 
-[Поиграйте с примерами, если хотите!](https://react-beautiful-dnd.netlify.com/iframe.html?selectedKind=board&selectedStory=simple)
+[Если есть желание - поиграйте с примерами!!](https://react-beautiful-dnd.netlify.com/iframe.html?selectedKind=board&selectedStory=simple)
 
 </div>
 
@@ -40,31 +40,31 @@
 - [Объединение элементов](/docs/guides/combining.md)
 - Поддержка мыши 🐭, клавиатуры 🎹♿️ и тач скрина 👉📱 (на мобильном, планшетном и других устройствах)
 - [Поддержка multi grag](/docs/patterns/multi-drag.md)
-- Incredible screen reader support ♿️ - we provide an amazing experience for english screen readers out of the box 📦. We also provide complete customisation control and internationalisation support for those who need it 💖
-- [Conditional dragging](/docs/api/draggable.md#optional-props) and [conditional dropping](/docs/api/droppable.md#conditionally-dropping)
-- Multiple independent lists on the one page
-- Flexible item sizes - the draggable items can have different heights (vertical lists) or widths (horizontal lists)
-- [Add and remove items during a drag](/docs/guides/changes-while-dragging.md)
-- Compatible with semantic `<table>` reordering - [table pattern](/docs/patterns/tables.md)
-- [Auto scrolling](/docs/guides/auto-scrolling.md) - automatically scroll containers and the window as required during a drag (even with keyboard 🔥)
-- Custom drag handles - you can drag a whole item by just a part of it
-- Compatible with [`ReactDOM.createPortal`](https://reactjs.org/docs/portals.html) - [portal pattern](/docs/patterns/using-a-portal.md)
-- 🌲 Tree support through the [`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/core/tree) package
-- A `<Droppable />` list can be a scroll container (without a scrollable parent) or be the child of a scroll container (that also does not have a scrollable parent)
-- Independent nested lists - a list can be a child of another list, but you cannot drag items from the parent list into a child list
-- Server side rendering (SSR) compatible - see [resetServerContext()](/docs/api/reset-server-context.md)
+- Невероятная поддержка программ экранного доступа ♿️ - мы предлагаем удивительный опыт для английских программ экрамного доступа прямо из коробки 📦. Мы также предоставляем полный контроль настройки и поддержку интернационализации для тех, кто в ней нуждается 💖
+- [Перетаскивание по условию](/docs/api/draggable.md#optional-props) и [сброс по условию](/docs/api/droppable.md#conditionally-dropping)
+- Несколько независимых списков на одной странице
+- Гибкие размеры элементов списка - двигаемые элементы могут иметь разную высоту (вертикальные списки) и ширину (горизонтальные списки)
+- [Возможность добавлять и удалять элементы во время движения](/docs/guides/changes-while-dragging.md)
+- Совместимость с семантическим упорядочиванием `<table>` - [табличный паттерн](/docs/patterns/tables.md)
+- [Авто скроллинг](/docs/guides/auto-scrolling.md) - возможность автоматически скроллить контейнер и даже окно, если необходимо (даже с помощью клавиатуры 🔥)
+- Кастомное управление передвижением - возможность передвигать целый элемент, управляя лишь его частью
+- Совместимость с [`ReactDOM.createPortal`](https://reactjs.org/docs/portals.html) - [паттерн порталов](/docs/patterns/using-a-portal.md)
+- 🌲 Поддержка дерева с помощью пакета [`@atlaskit/tree`](https://atlaskit.atlassian.com/packages/core/tree)
+- `<Droppable />` список может быть контейнером с прокруткой (без прокручиваемого родителя) или быть дочерним по отношению к контейнеру с прокруткой (у которого также нет прокручиваемого родителя)
+- Независимые вложенные списки - список может быть дочерним по отношению к другому списку, но вы не можете перетаскивать элементы из родительского списка в дочерний список
+- Поддержка рендеринг на стороне сервера (Server side rendering (SSR)) - смотрите [resetServerContext()](/docs/api/reset-server-context.md)
 - Прекрасно работает с [вложенными интерактивными элементами](/docs/api/draggable.md#interactive-child-elements-within-a-draggable-) по-умолчанию
 
 ## Мотивация 🤔
 
 `react-beautiful-dnd` разработан для создания красивых перетаскиваний элементов списка/списков. Их может использовать любой, даже люди, у которых проблемы со зрением. Для получения большей информации и мотивации по использованию проекта вы можете взглянуть на внешние ресурсы:
 
-- 📖 [Rethinking drag and drop](https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b)
-- 🎧 [React podcast: fast, accessible and beautiful drag and drop](https://reactpodcast.simplecast.fm/17)
+- 📖 [Переосмысления перетаскивания (drag and drop)](https://medium.com/@alexandereardon/rethinking-drag-and-drop-d9f5770b4e6b)
+- 🎧 [React подкаст: быстрый, доступный и красивый drag and drop](https://reactpodcast.simplecast.fm/17)
 
 ## Не для всех ✌️
 
-There are a lot of libraries out there that allow for drag and drop interactions within React. Most notable of these is the amazing [`react-dnd`](https://github.com/react-dnd/react-dnd). It does an incredible job at providing a great set of drag and drop primitives which work especially well with the [wildly inconsistent](https://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html) html5 drag and drop feature. `react-beautiful-dnd` is a higher level abstraction specifically built for lists (vertical, horizontal, movement between lists, nested lists and so on). Within that subset of functionality `react-beautiful-dnd` offers a powerful, natural and beautiful drag and drop experience. However, it does not provide the breadth of functionality offered by `react-dnd`. So `react-beautiful-dnd` might not be for you depending on what your use case is.
+Существует огромное количество библиотек, которые позволяют реализовать перетаскивание (drag and drop) с помощью React. Наиболее примечательным является удивительный [`react-dnd`](https://github.com/react-dnd/react-dnd). React-dnd выполняет невероятную работу по предоставлению большого набора примитивов перетаскивания, которые хорошо совместимы и хорошо работают с [дико несовместимой](https://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html) функцией перетаскивания в html5. `react-beautiful-dnd` - это абстракция более высокого уровня специально созданная для списков (вертикальных, горизонтальных, передвижения между списков, вложенных списков и так далее). В рамках вышеприведенного подмножества, `react-beatiful-dnd` предлагает мощное, естественное и красивое перетаскивание drag and drop. Тем не менее, эта библиотека не обеспечивает широту функциональных возможностей, предлагаемых `react-dnd`. Таким образом `react-beatiful-dnd` может вам не подойти - все зависит от ваших целей его использования.
 
 ## Документация 📖
 
@@ -90,10 +90,10 @@ There are a lot of libraries out there that allow for drag and drop interactions
 
 ![диаграмма](https://user-images.githubusercontent.com/2182637/53607406-c8f3a780-3c12-11e9-979c-7f3b5bd1bfbd.gif)
 
-- [`<DragDropContext />`](/docs/api/drag-drop-context.md) - _Wraps the part of your application you want to have drag and drop enabled for_
-- [`<Droppable />`](/docs/api/droppable.md) - _An area that can be dropped into. Contains `<Draggable />`s_
-- [`<Draggable />`](/docs/api/draggable.md) - _What can be dragged around_
-- [`resetServerContext()`](/docs/api/reset-server-context.md) - _Utility for server side rendering (SSR)_
+- [`<DragDropContext />`](/docs/api/drag-drop-context.md) - _Оборачивает ту часть вашего приложения, где вы хотите применить drag and drop_
+- [`<Droppable />`](/docs/api/droppable.md) - _Область в которую необходимо реализовать перетаскивание. Содержит`<Draggable />`_
+- [`<Draggable />`](/docs/api/draggable.md) - _То, что будете двигать и переносить_
+- [`resetServerContext()`](/docs/api/reset-server-context.md) - _Утилита для серверного рендеринга (SSR)_
 
 ### Руководства 🗺
 
