@@ -1,6 +1,6 @@
-# Upgrading
+# Обновления
 
-We have created upgrade instructions in our [Github release notes](https://github.com/atlassian/react-beautiful-dnd/releases) to help you upgrade to the latest version!
+Мы создали инструкции по обновлению [Github release notes](https://github.com/atlassian/react-beautiful-dnd/releases) чтобы помочь Вам обновить версию до последней!
 
 - [Upgrading from `9.x` to `10.x`](https://github.com/atlassian/react-beautiful-dnd/releases/tag/v10.0.0)
 - [Upgrading from `8.x` to `9.x`](https://github.com/atlassian/react-beautiful-dnd/releases/tag/v9.0.0)
@@ -10,4 +10,4 @@ We have created upgrade instructions in our [Github release notes](https://githu
 - [Upgrading from `4.x` to `5.x`](https://github.com/atlassian/react-beautiful-dnd/releases/tag/v5.0.0)
 - [Upgrading from `3.x` to `4.x`](https://github.com/atlassian/react-beautiful-dnd/releases/tag/v4.0.0)
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)

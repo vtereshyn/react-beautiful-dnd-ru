@@ -69,4 +69,4 @@ We recommend you set a `min-height` or `min-width` on a `<Droppable />` to ensur
 
 We go over this in our [Get started with `react-beautiful-dnd` course](https://egghead.io/lessons/react-move-items-between-columns-with-react-beautiful-dnd-using-ondragend)
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)

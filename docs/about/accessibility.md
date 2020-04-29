@@ -17,4 +17,4 @@ Traditionally drag and drop interactions have been exclusively a mouse or touch 
 
 > Example screen reader announcement
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)

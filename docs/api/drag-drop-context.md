@@ -104,4 +104,4 @@ Responders are top level application events that you can use to perform your own
 
 [Please see our Responders guide](/docs/guides/responders.md) for detailed information about responders ❤️
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)
