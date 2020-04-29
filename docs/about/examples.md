@@ -22,4 +22,4 @@ We have created some basic examples on `codesandbox` for you to play with direct
 - [Using with function components](https://codesandbox.io/s/zqwz5n5p9x)
 - [Simple DnD between two lists](https://codesandbox.io/s/ql08j35j3q) - _Community made_
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)

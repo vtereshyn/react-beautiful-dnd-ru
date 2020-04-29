@@ -49,4 +49,4 @@ class App extends React.Component {
 }
 ```
 
-[← Back to documentation](/README.md#documentation-)
+[← Вернуться к документации](/README.md#documentation-)
