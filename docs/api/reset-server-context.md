@@ -1,8 +1,8 @@
 # `resetServerContext`
 
-The `resetServerContext` function should be used when server side rendering (SSR). It ensures context state does not persist across multiple renders on the server which would result in client/server markup mismatches after multiple requests are rendered on the server.
+Функцию `resetServerContext` следует использовать при рендеринге на стороне сервера (SSR). Это гарантирует, что состояние контекста не сохраняется при нескольких отрисовках на сервере, что может привести к несоответствию разметки клиент / сервер после того, как на сервере будут отрисованы несколько запросов.
 
-Use it before calling the server side render method:
+Используйте его перед вызовом метода рендеринга на стороне сервера:
 
 ```js
 import { resetServerContext } from 'react-beautiful-dnd';
