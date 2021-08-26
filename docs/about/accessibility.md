@@ -1,20 +1,20 @@
-# Accessibility ♿️
+# Доступность ♿️
 
-Traditionally drag and drop interactions have been exclusively a mouse or touch interaction. This library has invested a huge amount of effort to ensure that everybody has access to drag and drop interactions
+Традиционно перетаскивание осуществляется исключительно мышью или касанием. Эта библиотека вложила огромное количество усилий для того, чтобы каждый имел возможность взаимодействовать с drag and drop.
 
-## What we do to include everyone
+## Что мы делаем, чтобы сделать библиотеку доступной каждому
 
-- [Full keyboard support](/docs/sensors/keyboard.md) (reordering, combining, moving between lists)
-- [Keyboard multi drag support](/docs/patterns/multi-drag.md)
-- Keyboard [auto scrolling](/docs/guides/auto-scrolling.md)
-- Fantastic [screen reader support](/docs/guides/screen-reader.md) - _We ship with english messaging out of the box 📦_
-- Correct use of `aria-*` attributes for [lift announcements](/docs/guides/screen-reader.md)
-- Ensure a dragging item maintains focus if started dragging with focus - [more info](/docs/api/draggable.md)
-- Ensure a dragging item maintains focus when dropping into a new list to allow drags to be chained together - [more info](/docs/api/draggable.md)
-- Ensure a dragging item maintains focus moving into a [portal](/docs/patterns/using-a-portal.md)
+- [Полная поддержка клавиатуры](/docs/sensors/keyboard.md) (reordering, combining, moving between lists)
+- [Поддержка множественного перетаскивания с клавиатуры](/docs/patterns/multi-drag.md)
+- Клавиатурный [авто скролл](/docs/guides/auto-scrolling.md)
+- Фантастическая [поддержка скринридера](/docs/guides/screen-reader.md) - _Сообщения на английском доступны из коробки 📦_
+- Правильное использование `aria-*` атрибутов для [lift announcements](/docs/guides/screen-reader.md)
+- Перетаскиваемый элемент сохраняет фокус, если перетаскивание было начато с фокусом - [подробнее](/docs/api/draggable.md)
+- Перетаскиваемый элемент сохраняет фокус при перетаскивании в новый список, чтобы перетаскивание можно было связать вместе - [подробнее](/docs/api/draggable.md)
+- Перетаскиваемый элемент сохраняет фокус, перемещаясь в [портал](/docs/patterns/using-a-portal.md)
 
 ![screen-reader-text](https://user-images.githubusercontent.com/2182637/36571009-d326d82a-1888-11e8-9a1d-e44f8b969c2f.gif)
 
-> Example screen reader announcement
+> Пример объявления программы чтения с экрана
 
 [← Вернуться к документации](/README.md#documentation-)
